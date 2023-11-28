@@ -1,0 +1,45 @@
+.container {
+    padding: 16px;
+    margin: 16px auto;
+
+    background-color: #333;
+    color: white;
+
+    width: 500px;
+    border-radius: 6px;
+}
+
+.container > input {
+    width: 300px;
+}
+
+/* Input and field styling */
+input  {
+    margin: 8px;
+    padding: 4px;
+}
+
+
+/* Button styling */
+button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 0.8em 2em;
+}
+
+/* task item styling */
+
+.task {
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
